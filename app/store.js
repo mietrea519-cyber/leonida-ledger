@@ -1,65 +1,84 @@
-// Leonida Ledger progress store: localStorage persistence, export and import.
-// Progress is a plain object: { earned: [trophyId], counters: { trophyId: number }, spoiler: boolean }.
-// Nothing in here touches the network; the demo (?shot=) scenes never call load or save.
+// Leonida Ledger progress store: earned flags and counters, saved in localStorage.
+// Demo mode (?shot=...) never touches this store; app.js passes a fixed demo state instead.
 
 export const STORAGE_KEY = 'leonida-ledger-progress-v1';
 
+// The fixed demo state used by the ?shot= screenshot scenes. It mirrors the captured
+// screenshots: 13 of 55 earned (2 silver, 11 bronze), every counter still at zero.
+export const DEMO_EARNED = [
+  'Just Like Paradise',
+  'Paradise Lost',
+  'Trust',
+  'The Shootist',
+  "Don't Touch My Deck",
+  'Positive Mental Attitude',
+  'Master of None',
+  'Top Fun',
+  'Baited My Tackle',
+  'Stick Fiddler',
+  'Whip It Good',
+  'The Goodtime State',
+  'Hot Together',
+];
+
 export function emptyProgress() {
-  return { earned: [], counters: {}, spoiler: false };
+  return { earned: {}, counts: {} };
+}
+
+export function demoProgress() {
+  const state = emptyProgress();
+  for (const name of DEMO_EARNED) state.earned[name] = true;
+  return state;
 }
 
 export function loadProgress() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return emptyProgress();
-    return parseProgress(JSON.parse(raw));
+    const parsed = JSON.parse(raw);
+    return {
+      earned: parsed && typeof parsed.earned === 'object' && parsed.earned ? parsed.earned : {},
+      counts: parsed && typeof parsed.counts === 'object' && parsed.counts ? parsed.counts : {},
+    };
   } catch {
     return emptyProgress();
   }
 }
 
-export function saveProgress(progress) {
+export function saveProgress(state) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   } catch {
-    // Storage can be unavailable (private mode, quotas); the tracker still works in memory.
+    // Storage can be unavailable (private mode, quotas); the tracker keeps working in memory.
   }
 }
 
-export function parseProgress(data) {
-  const clean = emptyProgress();
-  if (!data || typeof data !== 'object') return clean;
-  if (Array.isArray(data.earned)) {
-    clean.earned = [...new Set(data.earned.filter((id) => Number.isInteger(id)))];
+export function exportProgress(state) {
+  return JSON.stringify({ app: 'leonida-ledger', version: 1, earned: state.earned, counts: state.counts }, null, 2);
+}
+
+export function parseImport(text) {
+  const parsed = JSON.parse(text);
+  if (Array.isArray(parsed)) {
+    const state = emptyProgress();
+    for (const name of parsed) if (typeof name === 'string') state.earned[name] = true;
+    return state;
   }
-  if (data.counters && typeof data.counters === 'object') {
-    for (const [key, value] of Object.entries(data.counters)) {
-      const id = Number(key);
-      if (Number.isInteger(id) && typeof value === 'number' && Number.isFinite(value) && value >= 0) {
-        clean.counters[id] = Math.floor(value);
+  if (parsed && typeof parsed === 'object') {
+    const state = emptyProgress();
+    if (parsed.earned && typeof parsed.earned === 'object') {
+      for (const [name, flag] of Object.entries(parsed.earned)) if (flag) state.earned[name] = true;
+    }
+    if (Array.isArray(parsed.earned)) {
+      for (const name of parsed.earned) if (typeof name === 'string') state.earned[name] = true;
+    }
+    if (parsed.counts && typeof parsed.counts === 'object') {
+      for (const [name, value] of Object.entries(parsed.counts)) {
+        const n = Number(value);
+        if (Number.isFinite(n) && n >= 0) state.counts[name] = Math.floor(n);
       }
     }
+    return state;
   }
-  clean.spoiler = data.spoiler === true;
-  return clean;
-}
-
-export function exportProgress(progress) {
-  const payload = {
-    app: 'leonida-ledger',
-    version: 1,
-    exportedAt: new Date().toISOString(),
-    earned: [...progress.earned].sort((a, b) => a - b),
-    counters: progress.counters,
-    spoiler: progress.spoiler,
-  };
-  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = 'leonida-ledger-progress.json';
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  throw new Error('Unrecognised progress file');
 }
