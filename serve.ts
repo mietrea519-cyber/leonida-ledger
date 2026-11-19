@@ -1,19 +1,20 @@
-// Leonida Ledger — a small local server for trying the guide in a browser.
-// `node serve.ts` serves app/ at http://localhost:8080 (pass --port <n> for another port).
-// Node 22 standard library only. Paths are confined to app/, the content types the guide
-// needs are set explicitly, and nothing is cached, so edits show up on a plain reload.
+// Leonida Ledger local preview server (Node 22, standard library only).
+// `node serve.ts` serves this repository's app/ folder on http://localhost:8080 so the
+// guide can be tried in a desktop browser exactly as a static host would serve it.
+// `--port <n>` picks another port. Paths are confined to app/; anything outside it, or
+// missing inside it, is refused. This is a development convenience only.
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const appRoot = resolve(fileURLToPath(new URL('./app', import.meta.url)));
-const argv = process.argv.slice(2);
-const portFlag = argv.indexOf('--port');
-const wanted = portFlag === -1 ? 8080 : Number(argv[portFlag + 1]);
-const port = Number.isInteger(wanted) && wanted > 0 && wanted < 65536 ? wanted : 8080;
+const root = resolve(fileURLToPath(new URL('./app', import.meta.url)));
+const args = process.argv.slice(2);
+const portIndex = args.indexOf('--port');
+const requested = portIndex === -1 ? 8080 : Number(args[portIndex + 1]);
+const port = Number.isInteger(requested) && requested > 0 && requested < 65536 ? requested : 8080;
 
-const CONTENT_TYPES: Record<string, string> = {
+const MIME: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8',
@@ -39,14 +40,14 @@ createServer((request, response) => {
     return;
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
-  const target = resolve(join(appRoot, normalize(pathname)));
-  if (target !== appRoot && !target.startsWith(appRoot + sep)) {
+  const file = resolve(join(root, normalize(pathname)));
+  if (file !== root && !file.startsWith(root + sep)) {
     response.writeHead(403).end('forbidden');
     return;
   }
   let size: number;
   try {
-    const stats = statSync(target);
+    const stats = statSync(file);
     if (!stats.isFile()) throw new Error('not a file');
     size = stats.size;
   } catch {
@@ -54,11 +55,11 @@ createServer((request, response) => {
     return;
   }
   response.writeHead(200, {
-    'content-type': CONTENT_TYPES[extname(target).toLowerCase()] ?? 'application/octet-stream',
+    'content-type': MIME[extname(file).toLowerCase()] ?? 'application/octet-stream',
     'content-length': size,
     'cache-control': 'no-store',
   });
-  createReadStream(target).pipe(response);
+  createReadStream(file).pipe(response);
 }).listen(port, '127.0.0.1', () => {
-  console.log(`Leonida Ledger: app/ is being served at http://localhost:${port}`);
+  console.log(`Leonida Ledger app/ is on http://localhost:${port}`);
 });
