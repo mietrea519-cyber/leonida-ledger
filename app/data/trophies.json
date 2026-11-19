@@ -1,725 +1,856 @@
 {
-  "game": "Grand Theft Auto VI",
-  "platform": "PlayStation 5",
-  "list": "The official 55 trophies, as listed by PSNProfiles and Exophase before this guide was written. Names, descriptions and grades are PlayStation's own words; the hidden flags (28 hidden) and the progress targets PlayStation tracks are as PSNProfiles publishes them.",
-  "trophies": [
-    {
-      "id": 1,
-      "name": "Vice Got a Price!",
-      "description": "Congratulations! You're a Leonida Legend.",
-      "grade": "platinum",
-      "hidden": false,
-      "count": null,
-      "kind": "completion",
-      "missable": false,
-      "stage": 7,
-      "guide": "The platinum pops automatically the moment the other 54 trophies are earned — there is nothing extra to do for it. Work through the roadmap stages in order and it will unlock last, as the capstone of the whole list. It cannot be missed: every other trophy on the list is earnable in one playthrough, and the platinum follows from them. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; our own roadmap from the official descriptions.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 2,
-      "name": "Just Like Paradise",
-      "description": "Complete Gone Fishing.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Play the opening mission, Gone Fishing, to its end. This is one of the first missions of Chapter 1, so it pops early in any playthrough. Story mission trophies cannot be missed — just keep playing the story in order. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 3,
-      "name": "Paradise Lost",
-      "description": "Complete Chapter 1.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Finish every mission in Chapter 1. The trophy pops when the chapter closes, so there is no special step — play the story through and it unlocks on its own. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 4,
-      "name": "T**s Ass Drug Money",
-      "description": "Complete Chapter 2.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Finish every mission in Chapter 2. Like the other chapter trophies, it pops when the chapter ends and cannot be missed — keep following the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 5,
-      "name": "Vice City, Baby!",
-      "description": "Complete Chapter 3.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Finish every mission in Chapter 3. The trophy pops when the chapter closes. It cannot be missed — it is awarded for story progress alone. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 6,
-      "name": "Top Of The World, Ma",
-      "description": "Complete Chapter 4.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Finish every mission in Chapter 4. The trophy pops when the chapter closes. It cannot be missed — it is awarded for story progress alone. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 7,
-      "name": "You Gotta Know When to Get Off",
-      "description": "Complete the final mission.",
-      "grade": "gold",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Finish the final mission of the story — the last mission of the last chapter. This is the story's gold trophy and it pops at the credits. It cannot be missed. Before you start it, finish any time-sensitive side content you care about (see the missables page), because the final mission closes the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 8,
-      "name": "Trust",
-      "description": "Complete Breakfast Run.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission Breakfast Run. Mission trophies pop when the mission ends, so play it through to its conclusion; there is no optional objective to chase. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 9,
-      "name": "Break the Bank",
-      "description": "Complete The Cartel Heist.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission The Cartel Heist. It pops when the mission ends. It cannot be missed — it is awarded for finishing a story mission. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 10,
-      "name": "Family Matters",
-      "description": "Complete Child's Play.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission Child's Play. It pops when the mission ends. It cannot be missed — it is awarded for finishing a story mission. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 11,
-      "name": "DWNFALL",
-      "description": "Complete Headliners.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission Headliners. It pops when the mission ends. It cannot be missed — it is awarded for finishing a story mission. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 12,
-      "name": "Hi-Jacked",
-      "description": "Complete VCIA Takedown.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission VCIA Takedown. It pops when the mission ends. It cannot be missed — it is awarded for finishing a story mission. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 13,
-      "name": "Snow Storm",
-      "description": "Complete Operation Savage Glory.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "story",
-      "missable": false,
-      "stage": 1,
-      "guide": "Complete the story mission Operation Savage Glory. It pops when the mission ends. It cannot be missed — it is awarded for finishing a story mission. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 14,
-      "name": "A Long Road",
-      "description": "Attain 100% Completion.",
-      "grade": "gold",
-      "hidden": false,
-      "count": 100,
-      "kind": "completion",
-      "missable": false,
-      "stage": 7,
-      "guide": "Reach 100% completion — PlayStation tracks this one as a count out of 100. This is the long grind behind the platinum: work through the game's completion checklist (story, activities, collectibles and the counted trophies on this list) and the percentage climbs with it. Nothing on the completion checklist is missable, so take it at your own pace after the story; use the per-trophy counts in this guide to see what is left. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 100-point target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/100) as published by PSNProfiles."
-    }
-,
-    {
-      "id": 15,
-      "name": "Cunning Stunts",
-      "description": "Complete 250 Stunts.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 250,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Pull off 250 stunts — PlayStation tracks the count, so use the progress box in this guide to keep a running total. Any stunt counts toward the 250, so fold them into normal play: jumps, near misses and airtime while driving between missions all add up, and a dedicated session of repeated jumps finishes the rest. It cannot be missed; stunts stay available after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 250 target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/250) as published by PSNProfiles."
-    },
-    {
-      "id": 16,
-      "name": "Master of None",
-      "description": "Try each type of activity once.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 9,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Try each of the 9 activity types once — PlayStation tracks the count out of 9. Work through the activities this guide lists (races, fishing, the shooting range, arcade games, bowling and the rest) and tick each type off as you sample it; one try each is enough, no wins or high scores needed. It cannot be missed; activities stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 9-activity target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/9) as published by PSNProfiles."
-    },
-    {
-      "id": 17,
-      "name": "The Shootist",
-      "description": "Earn a gold medal in all Shooting Range challenges.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 42,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Earn a gold medal in all 42 Shooting Range challenges — PlayStation tracks the count, so this is a long grind, not a single visit. Return to the ranges between missions and clear a few challenges at a time; gold on every one is the requirement, so expect to replay the harder ones until the medal lands. It cannot be missed; the ranges stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 42-challenge target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/42) as published by PSNProfiles."
-    },
-    {
-      "id": 18,
-      "name": "Top Fun",
-      "description": "Win a Top Fun Drone Race at every location.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 14,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Win a Top Fun Drone Race at each of the 14 locations — PlayStation tracks the count, so one win per location is the goal, not 14 wins at one spot. Visit each location in turn and race until you win there, then move on. It cannot be missed; the races stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 14-location target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/14) as published by PSNProfiles."
-    },
-    {
-      "id": 19,
-      "name": "Earn Cash, Not Kudos",
-      "description": "Win 20 different races.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 20,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Win 20 different races — PlayStation tracks the count, and the word 'different' is the catch: winning the same race twice counts once. Race a spread of events across Leonida and tick each new win off; 20 distinct wins is the target. It cannot be missed; races stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 20-race target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/20) as published by PSNProfiles."
-    },
-    {
-      "id": 20,
-      "name": "Baited My Tackle",
-      "description": "Beat Cal in a fishing challenge.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Beat Cal in a fishing challenge. Fishing is one of the game's activities, so find a fishing spot, take the challenge against Cal and out-fish him; if you lose, challenge him again — the trophy only needs one win. It cannot be missed; fishing stays available after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 21,
-      "name": "Stick Fiddler",
-      "description": "Complete an arcade game.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Complete one arcade game — any arcade game, start to finish. Pick the one you find easiest and play it through; there is no score target in the description, just a completion. It cannot be missed; arcades stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 22,
-      "name": "Road to Rehabilitation",
-      "description": "Complete the final mission for Andy.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete the final mission in Andy's mission strand. Side-character strands unlock as you play the story; take Andy's missions whenever they appear and keep going until his last one ends. It cannot be missed — side strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 23,
-      "name": "This Was No Boat Accident",
-      "description": "Complete the final mission for Kenton.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete the final mission in Kenton's mission strand. Take Kenton's missions as they appear during and after the story and keep going until his last one ends. It cannot be missed — side strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 24,
-      "name": "The Lone Rider",
-      "description": "Complete the final mission for Billy.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete the final mission in Billy's mission strand. Take Billy's missions as they appear and keep going until his last one ends. It cannot be missed — side strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 25,
-      "name": "Strangers & Freaks",
-      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 8,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete 8 mission strands for strangers across Leonida — PlayStation tracks the count out of 8. Stranger strands are the side quests marked by strangers around the map; finish a whole strand, not just its first mission, for it to count. Explore the state, pick up strands as you find them, and keep a tally in this guide. It cannot be missed; stranger strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 8-strand target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/8) as published by PSNProfiles."
-    },
-    {
-      "id": 26,
-      "name": "Supply & Demand",
-      "description": "Complete the final mission for Randy.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete the final mission in Randy's mission strand. Take Randy's missions as they appear and keep going until his last one ends. It cannot be missed — side strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 27,
-      "name": "Spin On This!",
-      "description": "Complete the final mission for Tyrone.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Complete the final mission in Tyrone's mission strand. Take Tyrone's missions as they appear and keep going until his last one ends. It cannot be missed — side strands stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 28,
-      "name": "Positive Mental Attitude",
-      "description": "Meditate at every spot across Leonida.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 18,
-      "kind": "collectibles",
-      "missable": true,
-      "stage": 4,
-      "guide": "Meditate at all 18 spots across Leonida — PlayStation tracks the count, so tick each spot off as you find it. POSSIBLY MISSABLE: this is the one trophy other guides flag as potentially missable. The first meditation spot is offered at home in Chapter 1 and is reported to become unavailable after that chapter, so meditate there the first time it is offered and do not put it off. Later spots need both protagonists playable together, which opens up as the story advances. Do every spot the moment it appears and keep a manual save at the start of each chapter as a safety net. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 18-spot target as published by PSNProfiles; the missable warning as reported by PowerPyx (via GTA Zone's trophy list).",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/18) as published by PSNProfiles; missable warning as reported by PowerPyx, via GTA Zone."
-    }
-,
-    {
-      "id": 29,
-      "name": "Fair Game",
-      "description": "Hunt a unique animal for Bret.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "side",
-      "missable": false,
-      "stage": 2,
-      "guide": "Hunt a unique animal for Bret. Bret's hunting quests open up as the story advances; take the hunt, track the animal and bring it down. The exact animal is not pinned down in the official description, so follow Bret's prompts in-game rather than a fixed location — the trophy pops when the hunt for his unique animal is done. It cannot be missed; the hunt stays available after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 30,
-      "name": "Don't Touch My Deck",
-      "description": "Complete 3 Collectible Card sets.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 3,
-      "kind": "collectibles",
-      "missable": false,
-      "stage": 4,
-      "guide": "Complete 3 Collectible Card sets — PlayStation tracks the count out of 3. Cards are scattered across Leonida; collect full sets, not just stray cards, since only finished sets count. Sweep each area as you explore and keep a tally in this guide. It cannot be missed; cards stay collectible after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 3-set target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/3) as published by PSNProfiles."
-    },
-    {
-      "id": 31,
-      "name": "You WAiNKer!",
-      "description": "WAiNK It at 100 locations.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 100,
-      "kind": "collectibles",
-      "missable": false,
-      "stage": 4,
-      "guide": "WAiNK It at 100 locations — PlayStation tracks the count out of 100. WAiNK It is the game's photo-tagging collectible: find a location, frame it and tag it, then move on to the next. Work through Leonida area by area so you do not re-tag the same spots, and use the progress box here to keep count. It cannot be missed; locations stay taggable after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 100-location target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/100) as published by PSNProfiles."
-    },
-    {
-      "id": 32,
-      "name": "One Last Thing",
-      "description": "Complete 50 Challenges.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 50,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Complete 50 Challenges — PlayStation tracks the count out of 50. Challenges are the game's small objectives spread across activities and the open world; they accumulate naturally as you play, so pick off the easy ones first and let the rest come with the other trophies on this list. It cannot be missed; challenges stay completable after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 50-challenge target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/50) as published by PSNProfiles."
-    },
-    {
-      "id": 33,
-      "name": "Hot Together",
-      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "With your partner beside you, build a 4-star Wanted Level and then lose it and escape. Do it somewhere with fast getaway options: raise the heat with your partner present, then break line of sight, get out of the search area and stay hidden until the stars clear. The trophy pops when you escape, not when the wanted level starts. It cannot be missed — try again as often as you like. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 34,
-      "name": "Retail Therapy",
-      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "With your partner, rob 3 shops back-to-back without losing your Wanted Level — the trick is the 'without losing it' part: the wanted level must stay active through all three robberies. Pick three shops close together, plan the route, rob one after another quickly, and keep moving so the police do not catch you between stops. If the stars clear or you are caught, start the run over. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 35,
-      "name": "Whip It Good",
-      "description": "Discover 100 vehicles.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 100,
-      "kind": "collectibles",
-      "missable": false,
-      "stage": 4,
-      "guide": "Discover 100 vehicles — PlayStation tracks the count out of 100. Vehicles are discovered by finding (and scanning) them around Leonida, so the total grows as you explore: new districts, car parks, garages and traffic all hold new models. Make a habit of scanning every unfamiliar vehicle you pass and the count climbs on its own. It cannot be missed; vehicles stay discoverable after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 100-vehicle target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/100) as published by PSNProfiles."
-    },
-    {
-      "id": 36,
-      "name": "Gunslinger",
-      "description": "Take down 5 enemies in a single use of Combat Focus.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Take down 5 enemies in a single use of Combat Focus. Wait for a fight with at least five enemies grouped together, trigger Combat Focus, and drop five before it ends — pick a busy shootout rather than a quiet one, and use a weapon that kills quickly. If you only get four, the count resets, so retry the same kind of fight. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 37,
-      "name": "Catch Me If You Can",
-      "description": "Make an unscheduled departure at VCIA.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "Make an unscheduled departure at VCIA — Vice City International Airport. In plain terms from the description: leave the airport by air without a schedule, i.e. take an aircraft and fly out of VCIA yourself. Timing note (inference, unconfirmed): the description reads like a one-off moment tied to the airport, so try it while the airport is freely accessible and do not assume it will still be open late in the story — keep a manual save before you attempt it. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the timing note is our own inference from the description, not a confirmed fact.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; timing note is our own inference from the description."
-    },
-    {
-      "id": 38,
-      "name": "Challenging Tank",
-      "description": "Kinda hot in these Rhinos.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "The description is a joke with a hint: 'Kinda hot in these Rhinos.' A Rhino is the game's tank, so this trophy is about doing something notable in (or with) a Rhino tank — expect it to pop from tank combat, such as taking out enemies while driving one. The exact trigger is not spelled out in the official description, so treat the tank as the clue and experiment in a Rhino once you can get one. It cannot be missed as far as the description shows. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the Rhino reading is our own inference from the description's wording.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; the Rhino reading is our own inference from the description."
-    },
-    {
-      "id": 39,
-      "name": "Sneakthief",
-      "description": "Rob a jewelry store without being detected.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Rob a jewelry store without being detected. Stealth is the whole requirement: plan the approach, avoid cameras and staff sightlines, take the goods and leave before anyone raises the alarm. If you are spotted, the attempt fails — slip away and try another store or the same one again. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 40,
-      "name": "Maximum Withdrawal",
-      "description": "Rob 5 Bank Vaults and escape.",
-      "grade": "silver",
-      "hidden": false,
-      "count": 5,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Rob 5 Bank Vaults and escape — PlayStation tracks the count out of 5. Each vault needs a robbery and a clean getaway, so bring a fast escape vehicle and a route out before you go in. Five successful vault jobs is the target; a failed escape does not count. It cannot be missed; vaults stay robbable after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 5-vault target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/5) as published by PSNProfiles."
-    },
-    {
-      "id": 41,
-      "name": "A Classic Blitz Play",
-      "description": "Rob an Armored Truck and escape.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Rob an Armored Truck and escape. Armored trucks run routes around Leonida — intercept one, stop it, take its cargo and get away before the police close in. A fast car parked nearby for the getaway makes the escape far easier. One successful truck robbery and escape is all it takes. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 42,
-      "name": "The Goodtime State",
-      "description": "Explore all of Leonida.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 52,
-      "kind": "collectibles",
-      "missable": false,
-      "stage": 4,
-      "guide": "Explore all of Leonida — PlayStation tracks the count out of 52 areas. The map clears as you visit each of its 52 areas, so the trophy is a sightseeing tour: drive, fly or sail into every corner of the state, including the islands and the far counties, until the whole map is uncovered. Use the progress box here to track the areas you have visited. It cannot be missed; the whole map stays explorable after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 52-area target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/52) as published by PSNProfiles."
-    }
-,
-    {
-      "id": 43,
-      "name": "Pest Control",
-      "description": "Rob an Illegal Operation belonging to each gang.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 9,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Rob an Illegal Operation belonging to each gang — PlayStation tracks the count out of 9 gangs. One operation per gang is the requirement, so spread the jobs across all nine gangs rather than hitting the same gang's operations twice. Keep a tally per gang in this guide and tick each one off as its operation is robbed. It cannot be missed; gang operations stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 9-gang target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/9) as published by PSNProfiles."
-    },
-    {
-      "id": 44,
-      "name": "In The Beginning…",
-      "description": "Enjoy a cocktail with a view on Ocean Beach.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "Enjoy a cocktail with a view on Ocean Beach. The description is the whole instruction: go to Ocean Beach, find a spot with a view, and have a cocktail there. Timing note (inference, unconfirmed): the name 'In The Beginning…' reads like a moment tied to the start of the game, so try it early — the first time you can reach Ocean Beach — and do not assume the moment will still be there later. Keep a manual save before you attempt it. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the timing note is our own inference from the description, not a confirmed fact.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; timing note is our own inference from the description."
-    },
-    {
-      "id": 45,
-      "name": "Capital Offense",
-      "description": "Smash your way out of a vehicle showroom in classic style.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "Smash your way out of a vehicle showroom in classic style. The description is the whole instruction: get a vehicle inside a showroom and drive it straight out through the glass, in the classic style the name winks at. Timing note (inference, unconfirmed): the description reads like a one-off moment tied to a specific showroom visit, so try it the first time you are inside a showroom with a vehicle and keep a manual save before you attempt it. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the timing note is our own inference from the description, not a confirmed fact.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; timing note is our own inference from the description."
-    },
-    {
-      "id": 46,
-      "name": "Let’s Go Bowling",
-      "description": "Follow-through at the Kolt & Associates' bowling alley.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "activities",
-      "missable": false,
-      "stage": 3,
-      "guide": "Follow-through at the Kolt & Associates' bowling alley — in other words, go bowling there and play a game through. The description names the alley, so head to the Kolt & Associates bowling alley and bowl; the trophy is about the follow-through, so finish the game you start. It cannot be missed; the alley stays open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 47,
-      "name": "Personal Best",
-      "description": "A partnership with mass appeal.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "The description is deliberately vague: 'A partnership with mass appeal.' The word 'partnership' points at the two protagonists doing something together that wins a crowd over — a shared moment in the story or an activity done as a pair. The exact trigger is not pinned down in the official description, so treat this as a story-moment trophy: keep playing with your partner and it should pop from a shared scene. It cannot be missed as far as the description shows. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description's wording.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description."
-    },
-    {
-      "id": 48,
-      "name": "Actions Speak Louder",
-      "description": "Choices made (for better or worse).",
-      "grade": "bronze",
-      "hidden": true,
-      "count": 500,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "Make 500 choices — PlayStation tracks the count out of 500. The description is terse on purpose, but the count tells the story: this is a long-run tally of decisions made across the whole game, not a single event. Play normally, make choices whenever the game offers them, and the number climbs; there is no need to chase it specifically until the endgame, when the progress box here shows how far along you are. It cannot be missed; choices keep coming after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 500 target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/500) as published by PSNProfiles."
-    },
-    {
-      "id": 49,
-      "name": "Bad Luck, I Guess",
-      "description": "Second time's the charm.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "The description is a riddle: 'Second time's the charm.' Something in the game needs a second attempt — a failed first try followed by a success. The exact trigger is not pinned down in the official description, so the honest advice is to play on and let it come: retry the things you fail at, and when the second attempt lands, this should pop. It cannot be missed as far as the description shows. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description's wording.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description."
-    },
-    {
-      "id": 50,
-      "name": "The Truth Is Out There",
-      "description": "What the hell just happened?",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "moments",
-      "missable": false,
-      "stage": 6,
-      "guide": "The description is a reaction, not an instruction: 'What the hell just happened?' This is a strange-encounter trophy — something weird happens somewhere in Leonida and the trophy pops when you witness it. The exact trigger is not pinned down in the official description, so explore odd corners of the map and pay attention to strange sights; it is a discovery trophy, not a checklist one. It cannot be missed as far as the description shows. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description's wording.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; the reading is our own inference from the description."
-    },
-    {
-      "id": 51,
-      "name": "Ten Pin",
-      "description": "Bowl 'em over with a melee drive-by.",
-      "grade": "bronze",
-      "hidden": true,
-      "count": null,
-      "kind": "crime",
-      "missable": false,
-      "stage": 5,
-      "guide": "Bowl 'em over with a melee drive-by — knock someone down with a melee attack from a moving vehicle. The bowling pun is the hint: drive past a target, lean out and strike them with a melee weapon so they go down like a pin. Line up a slow pass on a lone pedestrian and time the swing; a miss costs nothing, so retry until it connects. It cannot be missed. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase."
-    },
-    {
-      "id": 52,
-      "name": "Dime on the Dollar",
-      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 250000,
-      "kind": "money",
-      "missable": false,
-      "stage": 7,
-      "guide": "Earn $250,000 laundering Marked Bills through your contacts — PlayStation tracks the running total out of $250,000. Marked Bills come from robberies and heists; take them to your contacts to launder them into clean cash, and the total climbs with every job. Keep laundering after every big score rather than letting bills pile up, and watch the progress box here. It cannot be missed; contacts stay available after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the $250,000 target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/250000) as published by PSNProfiles."
-    },
-    {
-      "id": 53,
-      "name": "Treat Yo Self",
-      "description": "Spend $100,000 across all shops.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 100000,
-      "kind": "money",
-      "missable": false,
-      "stage": 7,
-      "guide": "Spend $100,000 across all shops — PlayStation tracks the running total out of $100,000. Every purchase in any shop counts, so this climbs on its own as you buy weapons, clothes, vehicles and supplies through the game. If it is the last one standing, spend the surplus cash on the most expensive items you still want. It cannot be missed; shops stay open after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the $100,000 target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/100000) as published by PSNProfiles."
-    },
-    {
-      "id": 54,
-      "name": "Little Boxes",
-      "description": "Purchase all garage properties.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 8,
-      "kind": "money",
-      "missable": false,
-      "stage": 7,
-      "guide": "Purchase all garage properties — PlayStation tracks the count out of 8. Garages are bought as property around Leonida; buy each one as you can afford it, saving the expensive ones for the post-story money grind. Eight purchases is the target, so keep a tally in this guide and do not leave one district's garage unbought. It cannot be missed; properties stay for sale after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 8-property target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/8) as published by PSNProfiles."
-    },
-    {
-      "id": 55,
-      "name": "On the Spot",
-      "description": "Register 10 vehicles to the Scooter Bros app.",
-      "grade": "bronze",
-      "hidden": false,
-      "count": 10,
-      "kind": "money",
-      "missable": false,
-      "stage": 7,
-      "guide": "Register 10 vehicles to the Scooter Bros app — PlayStation tracks the count out of 10. Find vehicles around Leonida, open the Scooter Bros app and register each one; ten distinct registrations is the target, so vary the vehicles rather than registering the same one twice. It cannot be missed; the app stays available after the story. Sources: the official PlayStation trophy description as listed by PSNProfiles and Exophase; the 10-vehicle target as published by PSNProfiles.",
-      "sources": "Official PlayStation trophy description as listed by PSNProfiles and Exophase; PSN progress target (0/10) as published by PSNProfiles."
-    }
-  ]
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "The official 55 trophies: 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden on PSN. Names, descriptions and grades are as PlayStation publishes them, as listed by PSNProfiles and Exophase. Progress targets are the counts PlayStation tracks, as published by PSNProfiles.",
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "hidden": false,
+   "kind": "completion",
+   "missable": false,
+   "stage": 7,
+   "guide": "The platinum is the ledger itself: it unlocks on its own the moment the other 54 trophies are all earned, so there is nothing separate to hunt. Work the roadmap in order, keep an eye on the one possibly missable entry in Stage 4, and use the 100% completion trophy in this stage as your final checklist. When the last bronze, silver or gold pops, this one follows immediately.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "A story trophy for finishing Gone Fishing, the opening mission named in the official description. Simply start the game and play the introduction through to its end; the trophy pops as the mission completes. It cannot be missed, because the story cannot advance without it.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Play through the whole of Chapter 1 and this pops when the chapter closes. Before you leave Chapter 1 behind, a word of caution from the missable flag elsewhere in this ledger: other guides report that the first meditation spot for Positive Mental Attitude is offered during this chapter and becomes unavailable afterwards, so take that moment when it is offered rather than pressing on.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Finish every mission of Chapter 2 and the trophy lands as the chapter ends. The name is shown exactly as PlayStation publishes it, asterisks included. Nothing optional is required and nothing here can be missed: chapter trophies are the spine of the story and unlock in sequence.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Complete Chapter 3 from its first mission to its last. By this point both protagonists and the wider map are in play, so it is a good moment to start the side strands and collectibles in the later roadmap stages alongside the story rather than leaving everything to the end. The chapter trophy itself is unmissable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Finish Chapter 4 to earn this one. Keep a manual save at the start of the chapter as a general safety net, a habit other guides recommend for the whole run, then simply play the chapter through. Like every chapter trophy, it is awarded for story progress and cannot be skipped or missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "The gold for finishing the final mission of the story. Play the campaign to its conclusion and it pops as the last mission ends. Before starting the finale, tidy up anything chapter-bound you still owe, and keep a manual save from before the point of no return so the post-story cleanup in the later stages starts from a save you trust.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Complete the story mission Breakfast Run, named in the official description. It arrives as part of the campaign, so following the story markers is the whole method: finish the mission and the trophy is yours. It is tied to a required mission and cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Finish The Cartel Heist, the set-piece mission named in the official description, reached by following the main story. Heists in this series reward a moment of preparation, so go in stocked and follow the mission objectives through to the escape; the trophy pops on completion and cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Complete the story mission Child's Play when the campaign offers it. There is no optional condition attached in the official description: play the mission from start to finish and the trophy unlocks with it. Story missions are mandatory, so this one cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Finish the story mission Headliners. It is one of the named campaign missions in the official list, so progress through the story until it appears, complete its objectives, and the trophy follows. Nothing in the description suggests an optional or missable condition.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Complete VCIA Takedown, the airport-authority mission named in the official description (VCIA is the airport that also appears in Catch Me If You Can). Play it as the story presents it and finish every objective; the trophy unlocks on completion and, as a required story mission, cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Finish Operation Savage Glory, the named story mission in the official description. Follow the campaign until the operation begins, complete it, and the trophy is awarded. It belongs to the mandatory story path in Stage 1 of the roadmap, so it cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "hidden": false,
+   "kind": "completion",
+   "missable": false,
+   "stage": 7,
+   "guide": "The long gold: raise the in-game completion statistic to 100%. Treat the rest of this ledger as its checklist, because story, side strands, activities, collectibles and challenges all feed the percentage. Work it last, in Stage 7, using the in-game completion counter to find what is still outstanding, and expect it to be the final gold most players earn before the platinum.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 250,
+   "guide": "Complete 250 stunts, the target PlayStation tracks for this silver. Stunts are a repeatable open-world activity, so build the habit early: take the jumps and stunt opportunities the world offers as you travel between missions instead of fast-travelling past them, and keep the counter in this tracker updated. Anything left over is a Stage 3 grind with the whole map open, and none of it is missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 250)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 9,
+   "guide": "Sample every type of activity the game offers, once each: PlayStation tracks 9 activity types. You do not need to win or master any of them for this trophy, only to try them, so as each new activity unlocks during the story, play it a single time and tick it off. It pairs naturally with the rest of Stage 3 and cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 9 activity types)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 42,
+   "guide": "Earn a gold medal in every Shooting Range challenge: PlayStation tracks 42 of them. Work through the range weapon by weapon, learn each challenge’s scoring rhythm, and replay a challenge immediately while its layout is fresh rather than moving on with a silver or bronze. Accuracy streaks matter more than raw speed in most range formats, so slow down first and speed up once the targets feel routine. The range stays available, so this silver is never missable, just methodical.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 42 challenges)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 14,
+   "guide": "Win a Top Fun drone race at every location: PlayStation tracks 14 locations. A win is required, not just a finish, so learn each course with a practice run, then race it clean; one mistake usually costs more time than a cautious line. Tick locations off in this tracker as you clear them so the last few are easy to find. Races remain available all game, so nothing here is missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 14 locations)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 20,
+   "guide": "Win 20 different races. The word different is the catch: repeating one easy race twenty times does not advance the counter, so spread your wins across the race calendar and track which ones you have actually won. Bring a competitive vehicle for each class, and if a race keeps beating you, return later with better wheels rather than grinding it frustrated. Races are repeatable, so this cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 20 races)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "guide": "Beat Cal in a fishing challenge. Fishing is one of the activity types counted by Master of None, and Cal is its named rival in the official description: find the fishing challenge, learn the reeling rhythm on ordinary catches first, then take Cal on. If he wins a round, challenge him again; the trophy only needs one victory and the challenge can be retried, so it is not missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "guide": "Complete one arcade game, start to finish. Any cabinet counts as far as the official description says, so pick the game that suits you, learn its pattern, and see it through to its end rather than walking away mid-run. It is one of the quickest bronzes in Stage 3 and a natural tick while sampling activities for Master of None. Arcade games stay available, so it cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Finish Andy’s strand of side missions, ending with his final mission. Stranger strands unfold over several meetings, so start Andy’s chain when it first appears and return whenever a new episode unlocks instead of leaving the whole strand to the endgame. The trophy pops when his last mission completes. Other guides note that side strands can be tied to story progress, so beginning them early is the safe habit, though only Positive Mental Attitude is flagged as possibly missable in this ledger.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Complete Kenton’s mission strand through to his final mission. Work each episode as it unlocks; strands like this one count toward the eight strands needed for Strangers & Freaks as well, so progress here does double duty. The trophy unlocks when Kenton’s last mission ends. Start the strand when you meet him rather than postponing it, the same early-start habit recommended for every Stage 2 strand.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "See Billy’s strand through to his final mission and complete it. As with the other named characters in Stage 2, his missions arrive in stages across the game, so check back with him as the story advances and finish each new episode when it appears. Completing his finale also moves the Strangers & Freaks counter. The trophy pops on completion of that last mission.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "count": 8,
+   "guide": "Complete 8 full mission strands for strangers across Leonida, the silver that organises Stage 2. A strand means a character’s whole chain, not a single mission: Andy, Kenton, Billy, Randy and Tyrone each have a finale trophy of their own in this stage, and finishing strands like theirs is how the counter climbs. Start every strand when it appears, keep the counter updated here, and chase the last strands once the story is done if any remain.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 8 strands)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Finish Randy’s strand by completing his final mission. Follow his episodes as they unlock through the game and the trophy lands at the end of the last one. His strand is one of the eight counted toward Strangers & Freaks, so completing it advances two trophies at once. Begin it when Randy first appears, in line with the early-start approach for all side strands.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Complete Tyrone’s final mission to close out his strand. Play his episodes in order as the game offers them, and expect the finale only after the earlier ones are done. The trophy pops at the end of that last mission, and the finished strand also counts toward the eight needed for Strangers & Freaks. Start early and revisit him as the story moves on.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": true,
+   "stage": 4,
+   "count": 18,
+   "guide": "Meditate at every meditation spot across Leonida: PlayStation tracks 18 spots, and this tracker counts them as you find each one. POSSIBLY MISSABLE: this is the one trophy other guides flag as potentially missable. The first meditation spot is offered at home in Chapter 1 and is reported to become unavailable after that chapter, so meditate there the first time it is offered and do not put it off. Later spots need both protagonists playable together, which opens up as the story advances. Do every spot the moment it appears and keep a manual save at the start of each chapter as a safety net. That missable warning is an inference reported by other guides, not a confirmed fact from the official description, and this guide labels it that way on purpose.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 18 spots)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+    {"label": "GTA Zone trophy list (missable warning as reported by PowerPyx)", "url": "https://gta-zone.com/news/gta-6-trophies-achievements/"}
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Hunt the unique animal Bret asks for. Bret’s request belongs to the side content of Stage 2: take the job when he offers it, track the animal the way the mission directs, and complete the hunt. A unique animal means one specific quarry rather than any animal of its kind, so follow Bret’s brief instead of hunting at random. The trophy pops when the hunt is delivered.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 3,
+   "guide": "Complete 3 full collectible card sets. A set only counts when every card in it is found, so three finished sets beat a drawer full of partial ones: concentrate on completing one set at a time and use this tracker to note which sets are closest to done. Cards are hidden around Leonida, so search buildings and landmarks thoroughly as the story takes you through each area. Collectibles remain available after the story, so this silver is not missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 3 sets)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 100,
+   "guide": "Use the WAiNK action at 100 different locations, the target PlayStation tracks. Locations are the point: repeating it in one place does not build the counter, so make it a travel habit and do it somewhere new in every area you visit, keeping the counter here up to date. Paired with The Goodtime State’s full exploration of Leonida, the 100 accumulate naturally across Stage 4. It stays available all game and cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 100 locations)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 50,
+   "guide": "Complete 50 challenges of any kind. Challenges sit underneath the activities in Stage 3, so the efficient route is variety: as you work through races, ranges and other activities, accept the challenges attached to them rather than hunting challenges in isolation. Keep the counter updated here; if you fall short late in the run, the remaining challenges can be mopped up with the full map open. Nothing about them is missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 50 challenges)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "guide": "With your partner beside you, raise a 4-star wanted level, then lose it completely and escape. Both halves matter: the stars must reach four while you are together, and the escape only counts once the heat is fully gone, so break line of sight, keep moving, and change vehicles if the pursuit tightens. Do it deliberately in free roam rather than hoping it happens during a mission, and it can be retried as often as needed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "count": 3,
+   "guide": "Rob 3 shops in a row with your partner, without your wanted level dropping away between them. Plan a small circuit of shops close together before you start, rob the first, and move straight to the next while the heat is still on you; dawdling until the stars fade resets the chain. Your partner must be with you throughout, so set this up in free roam when you are together. Failed chains cost nothing but time, so retry until it flows.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 3 shops)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 100,
+   "guide": "Discover 100 different vehicles, the target PlayStation tracks. Discovery is about variety, so get into vehicles you have never used before whenever you see one parked or passing, across every class and neighbourhood; the vehicles around wealthy districts, worksites and the countryside differ a lot. It pairs well with On the Spot’s vehicle registering in Stage 7. Keep the counter updated here and the total builds steadily through normal play.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 100 vehicles)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 3,
+   "count": 5,
+   "guide": "Take down 5 enemies inside one single use of Combat Focus, the ability named in the official description. The trick is preparation: do not trigger it on the first enemy you see. Wait for a group of at least five, line them up, then activate it and work through them before it expires. Mission firefights and gang operations in Stage 5 offer dense groups if free roam does not. A failed attempt costs nothing; try again at the next crowd.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 5 enemies)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "guide": "Make an unscheduled departure at VCIA, the airport that also hosts the VCIA Takedown story mission. In plain terms, the official description points at leaving the airport in a way the airport did not schedule: get yourself airside, take an aircraft that was never cleared for you, and get airborne. Expect a wanted level for it, so plan the escape as part of the attempt. It is a free-roam stunt and can be retried, so it is not missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "guide": "The official description is a joke with a vehicle name inside it: Rhinos are tanks, and it gets hot inside them. Read plainly, this is the tank trophy: get into a Rhino when the game puts one in front of you, whether that is during a story set-piece or by taking one in free roam, and spend time at its controls. The description gives no count or condition beyond the Rhino itself, so this guide claims no more than that; if a military response brings one to you, that is your moment.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "guide": "Rob a jewelry store and get through it without being detected. Stealth is the whole requirement, the opposite of the noisy shop chain in Retail Therapy: scout the store first, move quietly, avoid raising an alarm, and leave before anyone knows. If you are spotted, walk away and set up a fresh attempt rather than finishing loudly; the trophy needs one clean robbery, and attempts are unlimited.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "count": 5,
+   "guide": "Rob 5 bank vaults and escape after each one, the silver at the heart of Stage 5. A vault only counts when you get away, so plan the exit before the entrance: vehicle placed, route in mind, and enough firepower or stealth for whichever approach the bank allows. Spread the robberies out as banks become available and track them here. Each escape finishes one fifth of the trophy, and failed attempts can simply be retried.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 5 vaults)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "guide": "Rob an armored truck and escape with the take. Watch for one on its route in free roam, stop it, get its cargo, and then lose the response that follows; the trophy needs the escape as well as the robbery, so have a fast vehicle and an exit route ready before you make your move. Armored trucks keep appearing, so a botched attempt is only a delay, never a miss.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 52,
+   "guide": "Explore all of Leonida: PlayStation tracks 52 areas. Work the map systematically, region by region, and let the other Stage 4 hunts carry you into corners you would otherwise skip: card sets, meditation spots and WAiNK locations all reward detours. Any grey patch left at the end is a short road trip with the whole game open. Exploration is permanent once done and cannot be missed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 52 areas)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "crime",
+   "missable": false,
+   "stage": 5,
+   "count": 9,
+   "guide": "Rob an illegal operation belonging to each gang: PlayStation tracks 9 gangs. One robbery per gang is the requirement, so variety matters more than volume; when you hit an operation, note here which gang it belonged to, because repeating the same gang does not advance the counter. As new territories and gangs reveal themselves through the story, clear their operation once and move on. Operations remain available, so this is a Stage 5 sweep, not a missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 9 gangs)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Enjoy a cocktail with a view on Ocean Beach, exactly as the official description says. This is one of the quiet moment trophies gathered in Stage 6: go to Ocean Beach, order or take the cocktail where the game offers it, and take in the view rather than rushing off. The description names the place and the act and nothing more, so this guide claims nothing more; if the moment is offered during a visit or a mission, accept it instead of postponing it.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Smash your way out of a vehicle showroom in classic style. The official description describes an exit, not an entrance: get into a vehicle inside a showroom and drive it out through the glass rather than using the door. It is a deliberate one-off moment in Stage 6, so when you find yourself in a showroom with a car at hand, take the loud way out. Showrooms stay where they are, so the moment can be set up again if you miss the chance.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Follow through at the Kolt & Associates bowling alley, the venue named in the official description. Go to that alley and bowl: the trophy is tied to playing there, so a game at any other alley would not be the one described. Bowling also counts among the activities sampled for Master of None, so this visit does double duty. The alley is a permanent location, and the moment is not missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 6,
+   "guide": "The official description, a partnership with mass appeal, is deliberately vague, and the honest reading is that this is a story moment between the two protagonists that the game stages for you rather than a feat you set up. Play the story with both partners together, take the joint activities and moments the game offers the pair, and expect it to arrive as part of that partnership. This guide claims no specific step the description does not support; it is grouped in Stage 6 with the other one-off moments so you check it during cleanup before assuming it is outstanding.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "count": 500,
+   "guide": "Make choices, for better or worse: PlayStation tracks a count that runs to 500. This is a long-horizon counter rather than a single feat, so the method is simply to keep playing and keep choosing: take the optional interactions, decisions and responses the game offers instead of skipping past them, and watch the counter climb in this tracker. If it is short near the end of the run, ordinary open-world play in Stage 6 cleanup is what feeds it. Nothing in the description suggests a deadline, so treat it as cumulative, not missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 500)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Second time’s the charm, says the official description, and that is genuinely all it says. The plain reading is a retry trophy: something in the game is failed, or goes wrong, and then succeeds on the second attempt. When the game offers you a second try at something, take it rather than reloading an earlier save to protect a perfect record. This guide deliberately invents no specific event, because the description names none; check this one during Stage 6 cleanup, by which time most players will have retried something.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "What the hell just happened? is the whole official description, which marks this as the game’s strange-encounter trophy: something odd is out there in Leonida, and witnessing it is the requirement. Explore off the main roads, especially while completing The Goodtime State’s 52 areas, and when the game presents something that makes no sense, stay and watch it play out instead of driving away. No location is named in the description, so this guide points at no invented spot; it sits in Stage 6, the odd-moments stage, where it belongs.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "hidden": true,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Bowl ’em over with a melee drive-by: strike a pedestrian-style target with a melee attack delivered from a moving vehicle, as the official description’s bowling joke describes. Set it up in a quiet street rather than in traffic chaos: roll slowly past your target, swing as you pass, and let the vehicle’s motion carry the hit. It is a technique trophy, so a few practice passes are normal, and it can be attempted whenever you are driving, which makes it a Stage 6 cleanup item rather than a missable.",
+   "sources": [
+    {"label": "PSNProfiles trophy list", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "money",
+   "missable": false,
+   "stage": 7,
+   "count": 250000,
+   "step": 5000,
+   "guide": "Earn $250,000 by laundering marked bills through your contacts. Marked bills come from the crime work in Stage 5, so this Stage 7 money trophy is where that income is washed clean: whenever you are holding marked bills, route them through your contacts instead of sitting on them, and keep the running total updated here. It is cumulative across the whole run, so steady laundering after every robbery finishes it without a dedicated grind.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: $250,000)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "money",
+   "missable": false,
+   "stage": 7,
+   "count": 100000,
+   "step": 1000,
+   "guide": "Spend $100,000 across all shops, in total. The words across all shops mean the spending is cumulative everywhere, not $100,000 in one place, so ordinary play does most of the work: vehicles, clothing, weapons and supplies all count toward the same pot. If you are short late in the run, Stage 7 is the time to stop hoarding and buy the expensive things you have been eyeing. Keep the total updated here and the trophy pops when the counter crosses the line.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: $100,000)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "money",
+   "missable": false,
+   "stage": 7,
+   "count": 8,
+   "guide": "Purchase every garage property: PlayStation tracks 8 garages. This is a money trophy in the truest sense, because the only obstacle is price, so it belongs in Stage 7 once story and crime income has filled your pockets. Buy them as they become affordable rather than saving for all eight at once, since owned garages are useful along the way, and tick each purchase off here. Properties stay on sale, so it cannot be missed, only postponed.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 8 garages)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 7,
+   "count": 10,
+   "guide": "Register 10 vehicles to the Scooter Bros app, the service named in the official description. Whenever you acquire a vehicle you intend to keep, register it in the app there and then instead of meaning to do it later; ten registrations accumulate quickly once it becomes a habit. It pairs naturally with Whip It Good’s 100 discovered vehicles: vehicles you find in Stage 4 are candidates to register here in Stage 7. The counter in this tracker keeps the running total honest.",
+   "sources": [
+    {"label": "PSNProfiles trophy list (PSN target: 10 vehicles)", "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"},
+    {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
+   ]
+  }
+ ]
 }
