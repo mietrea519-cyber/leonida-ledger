@@ -1,45 +1,62 @@
-[![GTA 6 trophy guide](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
-[![Rank](https://make.fun/badge/gta6-trophy-guide-01/mietrea519-cyber/leonida-ledger/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
-[![Reward](https://make.fun/badge/gta6-trophy-guide-01/mietrea519-cyber/leonida-ledger/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+# Leonida Ledger
 
-# Leonida Ledger — GTA 6 Trophy Guide & Tracker
+[![make.fun bounty](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/c/gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/mietrea519-cyber/leonida-ledger/rank.svg)](https://make.fun/c/gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/mietrea519-cyber/leonida-ledger/reward.svg)](https://make.fun/c/gta6-trophy-guide-01)
 
-An offline guide and tracker for all **55 PlayStation 5 trophies** of Grand Theft Auto VI: 1 platinum, 2 gold, 6 silver and 46 bronze, 28 of them hidden on PlayStation until earned.
+An offline guide and tracker for the 55 official PlayStation 5 trophies of Grand Theft Auto VI, built for the [make.fun](https://make.fun/c/gta6-trophy-guide-01) bounty **gta6-trophy-guide-01**.
 
-- **Checklist** — every trophy with its official name, description and grade, a hidden flag, and the progress count PlayStation tracks (for example 42 Shooting Range challenges, 18 meditation spots, 52 areas of Leonida).
-- **A guide to each trophy, in our own words** — what to do, where and how as far as the official description supports, when it can be missed, and a Sources line beside every guide. Trophy names, descriptions and grades are PlayStation's own words, as listed by PSNProfiles and Exophase; where a detail is inferred rather than stated, the guide says so.
-- **Roadmap to the platinum** — seven stages built from the official descriptions: story first, then side characters, activities, collectibles, crime, odd moments, and finally money and 100% completion.
-- **Missables flagged** — the one trophy reported as possibly missable (Positive Mental Attitude), plus a watch list of three moments whose timing is inferred from their descriptions.
-- **Tracker** — check trophies off, saved in the browser (localStorage), with overall progress, per-grade counts, progress boxes for counted trophies, and export/import of progress as JSON.
-- **Filters** — by kind (story, missable, collectibles, activities, online), by grade, and by search. There are no online trophies: the whole list is single-player, and the online filter says so.
-- **Spoiler-free mode** — hides the names and descriptions of story trophies until they are earned.
-- **Offline by design** — static files under `app/`, no build step, no network at runtime, no Rockstar artwork or logos. The look is our own: dusk navy and coral, system fonts.
+## What it does
 
-## Data & sources
+- **Checklist of all 55 official trophies** — official name, description and grade (1 platinum, 2 gold, 6 silver, 46 bronze), with the 28 trophies that are hidden on PSN badged as hidden, and PSN progress counters with steppers where PlayStation tracks a count (42 Shooting Range challenges, 18 meditation spots, 52 areas of Leonida, and more).
+- **A guide to every trophy in our own words** — what to do, where and how as far as the official description supports, and when it can be missed — each with a Sources list rendered as links a reader can follow (the PSNProfiles and Exophase trophy lists).
+- **Roadmap to the platinum in seven stages** — story first, then side content, activities and skills, explore and collect, crime and crew, odd moments and cleanup, and finally money, property and 100% completion — with per-stage progress.
+- **Missables view** — Positive Mental Attitude is flagged as possibly missable (other guides report its first meditation spot is offered in Chapter 1 and becomes unavailable after it; we label that as an inference from those guides, not a confirmed fact), with a badge, a warning banner in its guide, and its own view.
+- **Tracker** — check trophies off, adjust counters, and watch the overall percentage and per-grade counts update. Progress is saved in your browser's localStorage and can be exported to a JSON file, imported back, or reset.
+- **Filters and search** — by kind (story, missable, collectibles, activities, online — the official list has no online trophies, and the app says so on the page), by grade, and by text search.
+- **Spoiler-free mode** — hides the names and descriptions of story trophies until you earn them.
 
-`app/data/trophies.json` holds all 55 trophies with the official name, description and grade exactly as PlayStation publishes them (checked against the kit's starter list: no name, description or grade differs), the hidden flag (28 hidden, as published), and the progress target PlayStation tracks where it has one (20 counted trophies, targets as published by PSNProfiles). Each trophy also carries its own guide text, its kind, its roadmap stage, and a Sources line naming where its facts come from. Where a guide goes beyond the official description — for example the timing notes on three one-off moments — it says the detail is an inference, not a confirmed fact.
+## Run it
 
-## Try it
+The app is static files under `app/` with no build step and no network use at runtime. Serve it locally:
 
 ```sh
 node serve.ts
-# then open http://localhost:8080
 ```
 
-Fixed screenshot scenes are wired into the app with `?shot=`: `?shot=cover` (checklist with a guide open), `?shot=roadmap` (roadmap view), `?shot=tracker` (filters and spoiler mode on), `?shot=guide` (a single trophy guide with its sources). See `shots.json`.
-
-## Hand it in
+then open http://localhost:8080. To produce the hand-in output (`app/`, `screenshots/` and `dossier.json`):
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` copies `app/` and `screenshots/` to the output directory and writes `dossier.json` with the vendored make.fun library. An entry for the [gta6-trophy-guide-01 bounty](https://make.fun/bounty/gta6-trophy-guide-01) on make.fun.
+## Layout
+
+- `app/index.html`, `app/style.css`, `app/app.js`, `app/store.js` — the guide itself; original dusk-navy and coral look, system fonts, no Rockstar artwork.
+- `app/data/trophies.json` — the 55 trophies with their guides, kinds, roadmap stages, hidden flags and progress targets.
+- `screenshots/` — four screenshots of the app, the first by name is the cover.
+- `main.ts` — the hand-in program; `vendor/makefun-frontend.ts` is the kit's dossier library, unchanged.
+- `shots.json` — which view each screenshot was taken of.
+
+## Screenshot scenes
+
+The four screenshots in `screenshots/` are renders of this app's own demo scenes, selected with a `?shot=` query so a screenshot always shows the same state. Demo scenes never read or write localStorage.
+
+- `?shot=cover` — the checklist with demo progress (13 of 55 earned, 24% to the platinum) and The Shootist's guide open, with its Sources.
+- `?shot=roadmap` — the Roadmap to Platinum view with per-stage progress.
+- `?shot=tracker` — the Missable kind filter active and spoiler-free mode on, with Positive Mental Attitude shown as earned and its missable banner visible.
+- `?shot=guide` — Positive Mental Attitude's full guide, with its banner, Sources and the Earned button.
+
+## Data notes
+
+- Trophy names, descriptions and grades in `app/data/trophies.json` are the official PlayStation list as published by PSNProfiles and Exophase, which agree on every entry; exactly 28 of the 55 are hidden on PSN.
+- The `count` on a trophy is the progress target PlayStation tracks for it, as published by PSNProfiles; trophies without a tracked count have no counter in the app.
+- Each trophy carries a `stage` from 1 to 7 that places it in the roadmap, a `kind` used by the filters, and a `sources` list that the guide pane renders as reader-followed links. The only absolute URLs in the app are those citation links and the source URLs inside the data file; nothing loadable points outside `app/`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see `LICENSE`.
 
 ---
 
-Built for the make.fun bounty [gta6-trophy-guide-01](https://make.fun/bounty/gta6-trophy-guide-01). Enter your own at https://make.fun/?ref=1e3qpbvy
+Built for make.fun: https://make.fun/?ref=1e3qpbvy
