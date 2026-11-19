@@ -1,43 +1,37 @@
-// Leonida Ledger — hand-in program for the gta6-trophy-guide-01 bounty (Node 22, standard library only).
+// Leonida Ledger hand-in program (Node 22, standard library only).
+// The guide itself is this repository's app/ folder: plain static files that open at
+// app/index.html and work fully offline. This program copies app/ and screenshots/ into
+// the output directory and writes dossier.json there with buildDossier from the vendored
+// make.fun library, exactly as the competition kit requires. The vendor library must stay
+// byte-identical to the kit copy: the scorer rebuilds the dossier with its own copy and
+// compares the two byte for byte.
 //
-// The guide itself is the static site in app/: index.html, its stylesheet and modules, and
-// app/data/trophies.json with all 55 official trophies and their guides. It builds nothing and
-// loads nothing from the network. This program's one job is the hand-in: copy app/ and
-// screenshots/ into the output directory and write dossier.json there with buildDossier from
-// vendor/makefun-frontend.ts, the kit's library, left byte for byte unchanged so the dossier
-// this program writes is the dossier the scorer rebuilds.
-//
-// Run it locally the same way the grader does, with MAKEFUN_OUTPUT_DIR standing in for /output:
-//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-// Serve the guide locally with: node serve.ts
+// Run it locally with:  mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
-const repoRoot = fileURLToPath(new URL('.', import.meta.url));
-const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+const here = fileURLToPath(new URL('.', import.meta.url));
+const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// Copy the guide exactly as it stands in the repository: no transforms, no build step.
-mkdirSync(outputDir, { recursive: true });
-cpSync(join(repoRoot, 'app'), join(outputDir, 'app'), { recursive: true });
-
-// Screenshots ride along beside the app; the first by name is the cover the judge sees.
-mkdirSync(join(outputDir, 'screenshots'), { recursive: true });
-if (existsSync(join(repoRoot, 'screenshots'))) {
-  cpSync(join(repoRoot, 'screenshots'), join(outputDir, 'screenshots'), { recursive: true });
+mkdirSync(out, { recursive: true });
+cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });
+mkdirSync(join(out, 'screenshots'), { recursive: true });
+if (existsSync(join(here, 'screenshots'))) {
+  cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
 }
 
-// The dossier limits mirror the scorer's caps for this bounty: at most 4 screenshots of
-// 256 KiB each, at most 993 files and directories and 48 MiB inside app/, and a text view
-// of the source capped at 163,840 bytes.
-const dossier = buildDossier(outputDir, {
-  text_max_bytes: 163840,
-  screenshots: { max: 4, max_bytes: 262144 },
-  app_max_files: 993,
-  app_max_bytes: 50331648,
-});
-writeFileSync(join(outputDir, 'dossier.json'), dossier);
-
-console.log(`Leonida Ledger handed in to ${outputDir}: app/, screenshots/ and dossier.json written.`);
+// The caps below mirror the gate's own limits, so a hand-in this program produces is one
+// the scorer accepts: dossier text capped at 160 KiB, at most 4 screenshots of 256 KiB
+// each, and app/ within its file-count and byte budgets.
+writeFileSync(
+  join(out, 'dossier.json'),
+  buildDossier(out, {
+    text_max_bytes: 163840,
+    screenshots: { max: 4, max_bytes: 262144 },
+    app_max_files: 993,
+    app_max_bytes: 50331648,
+  }),
+);
